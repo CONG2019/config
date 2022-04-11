@@ -1,0 +1,14 @@
+ service tftp
+  2 {
+  3     socket_type = dgram
+  4 
+  5     protocol = udp
+  6     wait = yes
+  7     disable = no
+  8     user = root
+  9     server = /usr/sbin/in.tftpd
+ 10     server_args = -s /home/cong/tftpboot
+ 11     per_source = 11
+ 12     cps =100 2
+ 13     flags =IPv4
+ 14 }
