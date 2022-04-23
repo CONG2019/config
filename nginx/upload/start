@@ -1,0 +1,5 @@
+#!/bin/bash
+
+/home/cong/work/code/django/upload/manage.py runserver 0.0.0.0:9997&
+
+exit 0

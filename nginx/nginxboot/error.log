@@ -1,0 +1,593 @@
+2022/04/11 00:12:06 [notice] 7544#7544: using the "epoll" event method
+2022/04/11 00:12:06 [notice] 7544#7544: using the "epoll" event method
+2022/04/11 00:12:06 [notice] 7544#7544: nginx/1.20.2
+2022/04/11 00:12:06 [notice] 7544#7544: nginx/1.20.2
+2022/04/11 00:12:06 [notice] 7544#7544: OS: Linux 5.16.14-1-MANJARO
+2022/04/11 00:12:06 [notice] 7544#7544: OS: Linux 5.16.14-1-MANJARO
+2022/04/11 00:12:06 [notice] 7544#7544: getrlimit(RLIMIT_NOFILE): 1024:524288
+2022/04/11 00:12:06 [notice] 7544#7544: getrlimit(RLIMIT_NOFILE): 1024:524288
+2022/04/11 00:12:06 [notice] 7545#7545: start worker processes
+2022/04/11 00:12:06 [notice] 7545#7545: start worker processes
+2022/04/11 00:12:06 [notice] 7545#7545: start worker process 7546
+2022/04/11 00:12:06 [notice] 7545#7545: start worker process 7546
+2022/04/11 00:12:13 [error] 7546#7546: *1 open() "/home/cong/nginx/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2022/04/11 00:12:13 [error] 7546#7546: *1 open() "/home/cong/nginx/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2022/04/11 00:12:13 [error] 7546#7546: *1 open() "/home/cong/nginx/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2022/04/11 00:12:13 [error] 7546#7546: *1 open() "/home/cong/nginx/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2022/04/11 00:12:39 [warn] 7546#7546: *1 a client request body is buffered to a temporary file /var/lib/nginx/client-body/0000000001, client: 127.0.0.1, server: localhost, request: "POST /upload HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/data/upload.html"
+2022/04/11 00:12:39 [warn] 7546#7546: *1 a client request body is buffered to a temporary file /var/lib/nginx/client-body/0000000001, client: 127.0.0.1, server: localhost, request: "POST /upload HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/data/upload.html"
+2022/04/11 00:12:39 [error] 7546#7546: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /upload HTTP/1.1", upstream: "http://[::1]:9997/upload", host: "127.0.0.1", referrer: "http://127.0.0.1/data/upload.html"
+2022/04/11 00:12:39 [error] 7546#7546: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /upload HTTP/1.1", upstream: "http://[::1]:9997/upload", host: "127.0.0.1", referrer: "http://127.0.0.1/data/upload.html"
+2022/04/11 00:12:39 [error] 7546#7546: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /upload HTTP/1.1", upstream: "http://[::1]:9997/upload", host: "127.0.0.1", referrer: "http://127.0.0.1/data/upload.html"
+2022/04/11 00:12:39 [error] 7546#7546: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /upload HTTP/1.1", upstream: "http://[::1]:9997/upload", host: "127.0.0.1", referrer: "http://127.0.0.1/data/upload.html"
+2022/04/11 00:12:39 [warn] 7546#7546: *1 upstream server temporarily disabled while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /upload HTTP/1.1", upstream: "http://[::1]:9997/upload", host: "127.0.0.1", referrer: "http://127.0.0.1/data/upload.html"
+2022/04/11 00:12:39 [warn] 7546#7546: *1 upstream server temporarily disabled while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /upload HTTP/1.1", upstream: "http://[::1]:9997/upload", host: "127.0.0.1", referrer: "http://127.0.0.1/data/upload.html"
+2022/04/11 00:13:13 [info] 7546#7546: *2 client timed out (110: Connection timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/04/11 00:19:43 [warn] 7546#7546: *5 a client request body is buffered to a temporary file /var/lib/nginx/client-body/0000000002, client: 127.0.0.1, server: localhost, request: "POST /upload HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/data/upload.html"
+2022/04/11 00:19:43 [warn] 7546#7546: *5 a client request body is buffered to a temporary file /var/lib/nginx/client-body/0000000002, client: 127.0.0.1, server: localhost, request: "POST /upload HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/data/upload.html"
+2022/04/11 00:20:35 [info] 7546#7546: *6 client timed out (110: Connection timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/04/11 00:23:06 [warn] 7546#7546: *8 a client request body is buffered to a temporary file /var/lib/nginx/client-body/0000000003, client: 127.0.0.1, server: localhost, request: "POST /upload HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/data/upload.html"
+2022/04/11 00:23:06 [warn] 7546#7546: *8 a client request body is buffered to a temporary file /var/lib/nginx/client-body/0000000003, client: 127.0.0.1, server: localhost, request: "POST /upload HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/data/upload.html"
+2022/04/11 00:23:06 [error] 7546#7546: *8 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /upload HTTP/1.1", upstream: "http://127.0.0.1:9997/upload", host: "127.0.0.1", referrer: "http://127.0.0.1/data/upload.html"
+2022/04/11 00:23:06 [error] 7546#7546: *8 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /upload HTTP/1.1", upstream: "http://127.0.0.1:9997/upload", host: "127.0.0.1", referrer: "http://127.0.0.1/data/upload.html"
+2022/04/11 00:23:06 [error] 7546#7546: *8 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /upload HTTP/1.1", upstream: "http://127.0.0.1:9997/upload", host: "127.0.0.1", referrer: "http://127.0.0.1/data/upload.html"
+2022/04/11 00:23:06 [error] 7546#7546: *8 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /upload HTTP/1.1", upstream: "http://127.0.0.1:9997/upload", host: "127.0.0.1", referrer: "http://127.0.0.1/data/upload.html"
+2022/04/11 00:23:06 [warn] 7546#7546: *8 upstream server temporarily disabled while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /upload HTTP/1.1", upstream: "http://127.0.0.1:9997/upload", host: "127.0.0.1", referrer: "http://127.0.0.1/data/upload.html"
+2022/04/11 00:23:06 [warn] 7546#7546: *8 upstream server temporarily disabled while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /upload HTTP/1.1", upstream: "http://127.0.0.1:9997/upload", host: "127.0.0.1", referrer: "http://127.0.0.1/data/upload.html"
+2022/04/11 00:23:06 [error] 7546#7546: *8 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /upload HTTP/1.1", upstream: "http://[::1]:9997/upload", host: "127.0.0.1", referrer: "http://127.0.0.1/data/upload.html"
+2022/04/11 00:23:06 [error] 7546#7546: *8 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /upload HTTP/1.1", upstream: "http://[::1]:9997/upload", host: "127.0.0.1", referrer: "http://127.0.0.1/data/upload.html"
+2022/04/11 00:23:06 [error] 7546#7546: *8 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /upload HTTP/1.1", upstream: "http://[::1]:9997/upload", host: "127.0.0.1", referrer: "http://127.0.0.1/data/upload.html"
+2022/04/11 00:23:06 [error] 7546#7546: *8 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /upload HTTP/1.1", upstream: "http://[::1]:9997/upload", host: "127.0.0.1", referrer: "http://127.0.0.1/data/upload.html"
+2022/04/11 00:23:06 [warn] 7546#7546: *8 upstream server temporarily disabled while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /upload HTTP/1.1", upstream: "http://[::1]:9997/upload", host: "127.0.0.1", referrer: "http://127.0.0.1/data/upload.html"
+2022/04/11 00:23:06 [warn] 7546#7546: *8 upstream server temporarily disabled while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /upload HTTP/1.1", upstream: "http://[::1]:9997/upload", host: "127.0.0.1", referrer: "http://127.0.0.1/data/upload.html"
+2022/04/11 00:23:46 [error] 7546#7546: *8 open() "/home/cong/nginx/data/aba" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /data/aba HTTP/1.1", host: "127.0.0.1"
+2022/04/11 00:23:46 [error] 7546#7546: *8 open() "/home/cong/nginx/data/aba" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /data/aba HTTP/1.1", host: "127.0.0.1"
+2022/04/11 00:23:46 [error] 7546#7546: *8 open() "/home/cong/nginx/data/aba" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /data/aba HTTP/1.1", host: "127.0.0.1"
+2022/04/11 00:23:46 [error] 7546#7546: *8 open() "/home/cong/nginx/data/aba" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /data/aba HTTP/1.1", host: "127.0.0.1"
+2022/04/11 00:24:01 [info] 7546#7546: *9 client timed out (110: Connection timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/04/11 00:28:26 [notice] 7545#7545: signal 15 (SIGTERM) received from 1, exiting
+2022/04/11 00:28:26 [notice] 7545#7545: signal 15 (SIGTERM) received from 1, exiting
+2022/04/11 00:28:26 [notice] 7546#7546: exiting
+2022/04/11 00:28:26 [notice] 7546#7546: exiting
+2022/04/11 00:28:26 [notice] 7546#7546: exit
+2022/04/11 00:28:26 [notice] 7545#7545: signal 17 (SIGCHLD) received from 7546
+2022/04/11 00:28:26 [notice] 7545#7545: signal 17 (SIGCHLD) received from 7546
+2022/04/11 00:28:26 [notice] 7545#7545: worker process 7546 exited with code 0
+2022/04/11 00:28:26 [notice] 7545#7545: worker process 7546 exited with code 0
+2022/04/11 00:28:26 [notice] 7545#7545: exit
+2022/04/11 00:28:26 [notice] 7545#7545: exit
+2022/04/11 00:28:27 [notice] 8658#8658: using the "epoll" event method
+2022/04/11 00:28:27 [notice] 8658#8658: using the "epoll" event method
+2022/04/11 00:28:27 [notice] 8658#8658: nginx/1.20.2
+2022/04/11 00:28:27 [notice] 8658#8658: nginx/1.20.2
+2022/04/11 00:28:27 [notice] 8658#8658: OS: Linux 5.16.14-1-MANJARO
+2022/04/11 00:28:27 [notice] 8658#8658: OS: Linux 5.16.14-1-MANJARO
+2022/04/11 00:28:27 [notice] 8658#8658: getrlimit(RLIMIT_NOFILE): 1024:524288
+2022/04/11 00:28:27 [notice] 8658#8658: getrlimit(RLIMIT_NOFILE): 1024:524288
+2022/04/11 00:28:27 [notice] 8659#8659: start worker processes
+2022/04/11 00:28:27 [notice] 8659#8659: start worker processes
+2022/04/11 00:28:27 [notice] 8659#8659: start worker process 8660
+2022/04/11 00:28:27 [notice] 8659#8659: start worker process 8660
+2022/04/11 00:28:38 [warn] 8660#8660: *1 a client request body is buffered to a temporary file /var/lib/nginx/client-body/0000000001, client: 127.0.0.1, server: localhost, request: "POST /upload HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/data/upload.html"
+2022/04/11 00:28:38 [warn] 8660#8660: *1 a client request body is buffered to a temporary file /var/lib/nginx/client-body/0000000001, client: 127.0.0.1, server: localhost, request: "POST /upload HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/data/upload.html"
+2022/04/11 00:28:38 [error] 8660#8660: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /upload HTTP/1.1", upstream: "http://[::1]:9997/upload", host: "127.0.0.1", referrer: "http://127.0.0.1/data/upload.html"
+2022/04/11 00:28:38 [error] 8660#8660: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /upload HTTP/1.1", upstream: "http://[::1]:9997/upload", host: "127.0.0.1", referrer: "http://127.0.0.1/data/upload.html"
+2022/04/11 00:28:38 [error] 8660#8660: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /upload HTTP/1.1", upstream: "http://[::1]:9997/upload", host: "127.0.0.1", referrer: "http://127.0.0.1/data/upload.html"
+2022/04/11 00:28:38 [error] 8660#8660: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /upload HTTP/1.1", upstream: "http://[::1]:9997/upload", host: "127.0.0.1", referrer: "http://127.0.0.1/data/upload.html"
+2022/04/11 00:28:38 [warn] 8660#8660: *1 upstream server temporarily disabled while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /upload HTTP/1.1", upstream: "http://[::1]:9997/upload", host: "127.0.0.1", referrer: "http://127.0.0.1/data/upload.html"
+2022/04/11 00:28:38 [warn] 8660#8660: *1 upstream server temporarily disabled while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /upload HTTP/1.1", upstream: "http://[::1]:9997/upload", host: "127.0.0.1", referrer: "http://127.0.0.1/data/upload.html"
+2022/04/11 00:28:38 [error] 8660#8660: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /upload HTTP/1.1", upstream: "http://127.0.0.1:9997/upload", host: "127.0.0.1", referrer: "http://127.0.0.1/data/upload.html"
+2022/04/11 00:28:38 [error] 8660#8660: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /upload HTTP/1.1", upstream: "http://127.0.0.1:9997/upload", host: "127.0.0.1", referrer: "http://127.0.0.1/data/upload.html"
+2022/04/11 00:28:38 [error] 8660#8660: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /upload HTTP/1.1", upstream: "http://127.0.0.1:9997/upload", host: "127.0.0.1", referrer: "http://127.0.0.1/data/upload.html"
+2022/04/11 00:28:38 [error] 8660#8660: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /upload HTTP/1.1", upstream: "http://127.0.0.1:9997/upload", host: "127.0.0.1", referrer: "http://127.0.0.1/data/upload.html"
+2022/04/11 00:28:38 [warn] 8660#8660: *1 upstream server temporarily disabled while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /upload HTTP/1.1", upstream: "http://127.0.0.1:9997/upload", host: "127.0.0.1", referrer: "http://127.0.0.1/data/upload.html"
+2022/04/11 00:28:38 [warn] 8660#8660: *1 upstream server temporarily disabled while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /upload HTTP/1.1", upstream: "http://127.0.0.1:9997/upload", host: "127.0.0.1", referrer: "http://127.0.0.1/data/upload.html"
+2022/04/11 00:29:30 [info] 8660#8660: *2 client timed out (110: Connection timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/04/11 00:31:26 [warn] 8660#8660: *5 a client request body is buffered to a temporary file /var/lib/nginx/client-body/0000000002, client: 127.0.0.1, server: localhost, request: "POST /upload HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/data/upload.html"
+2022/04/11 00:31:26 [warn] 8660#8660: *5 a client request body is buffered to a temporary file /var/lib/nginx/client-body/0000000002, client: 127.0.0.1, server: localhost, request: "POST /upload HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/data/upload.html"
+2022/04/11 00:32:26 [info] 8660#8660: *6 client timed out (110: Connection timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/04/11 00:33:22 [error] 8660#8660: *10 open() "/home/cong/nginx/favicon.ico" failed (2: No such file or directory), client: 192.168.0.58, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.0.60"
+2022/04/11 00:33:22 [error] 8660#8660: *10 open() "/home/cong/nginx/favicon.ico" failed (2: No such file or directory), client: 192.168.0.58, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.0.60"
+2022/04/11 00:33:22 [error] 8660#8660: *10 open() "/home/cong/nginx/favicon.ico" failed (2: No such file or directory), client: 192.168.0.58, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.0.60"
+2022/04/11 00:33:22 [error] 8660#8660: *10 open() "/home/cong/nginx/favicon.ico" failed (2: No such file or directory), client: 192.168.0.58, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.0.60"
+2022/04/11 00:33:31 [error] 8660#8660: *10 open() "/home/cong/nginx/favicon.ico" failed (2: No such file or directory), client: 192.168.0.58, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.0.60"
+2022/04/11 00:33:31 [error] 8660#8660: *10 open() "/home/cong/nginx/favicon.ico" failed (2: No such file or directory), client: 192.168.0.58, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.0.60"
+2022/04/11 00:33:31 [error] 8660#8660: *10 open() "/home/cong/nginx/favicon.ico" failed (2: No such file or directory), client: 192.168.0.58, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.0.60"
+2022/04/11 00:33:31 [error] 8660#8660: *10 open() "/home/cong/nginx/favicon.ico" failed (2: No such file or directory), client: 192.168.0.58, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.0.60"
+2022/04/11 00:33:52 [info] 8660#8660: *8 client closed connection while waiting for request, client: 192.168.0.58, server: 0.0.0.0:80
+2022/04/11 00:34:02 [info] 8660#8660: *10 client 192.168.0.58 closed keepalive connection
+2022/04/11 00:34:29 [info] 8660#8660: *11 recv() failed (104: Connection reset by peer) while waiting for request, client: 192.168.0.58, server: 0.0.0.0:80
+2022/04/11 00:34:29 [info] 8660#8660: *9 client 192.168.0.58 closed keepalive connection
+2022/04/11 00:34:51 [error] 8660#8660: *15 open() "/home/cong/nginx/favicon.ico" failed (2: No such file or directory), client: 192.168.0.58, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.0.60", referrer: "http://192.168.0.60/data/"
+2022/04/11 00:34:51 [error] 8660#8660: *15 open() "/home/cong/nginx/favicon.ico" failed (2: No such file or directory), client: 192.168.0.58, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.0.60", referrer: "http://192.168.0.60/data/"
+2022/04/11 00:34:51 [error] 8660#8660: *15 open() "/home/cong/nginx/favicon.ico" failed (2: No such file or directory), client: 192.168.0.58, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.0.60", referrer: "http://192.168.0.60/data/"
+2022/04/11 00:34:51 [error] 8660#8660: *15 open() "/home/cong/nginx/favicon.ico" failed (2: No such file or directory), client: 192.168.0.58, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.0.60", referrer: "http://192.168.0.60/data/"
+2022/04/11 00:35:07 [error] 8660#8660: *16 open() "/home/cong/nginx/apple-touch-icon-precomposed.png" failed (2: No such file or directory), client: 192.168.0.58, server: localhost, request: "GET /apple-touch-icon-precomposed.png HTTP/1.1", host: "192.168.0.60"
+2022/04/11 00:35:07 [error] 8660#8660: *16 open() "/home/cong/nginx/apple-touch-icon-precomposed.png" failed (2: No such file or directory), client: 192.168.0.58, server: localhost, request: "GET /apple-touch-icon-precomposed.png HTTP/1.1", host: "192.168.0.60"
+2022/04/11 00:35:07 [error] 8660#8660: *16 open() "/home/cong/nginx/apple-touch-icon-precomposed.png" failed (2: No such file or directory), client: 192.168.0.58, server: localhost, request: "GET /apple-touch-icon-precomposed.png HTTP/1.1", host: "192.168.0.60"
+2022/04/11 00:35:07 [error] 8660#8660: *16 open() "/home/cong/nginx/apple-touch-icon-precomposed.png" failed (2: No such file or directory), client: 192.168.0.58, server: localhost, request: "GET /apple-touch-icon-precomposed.png HTTP/1.1", host: "192.168.0.60"
+2022/04/11 00:35:07 [info] 8660#8660: *16 client 192.168.0.58 closed keepalive connection
+2022/04/11 00:35:07 [info] 8660#8660: *18 client closed connection while waiting for request, client: 192.168.0.58, server: 0.0.0.0:80
+2022/04/11 00:35:07 [info] 8660#8660: *17 client closed connection while waiting for request, client: 192.168.0.58, server: 0.0.0.0:80
+2022/04/11 00:35:22 [info] 8660#8660: *15 client 192.168.0.58 closed keepalive connection
+2022/04/11 00:35:22 [info] 8660#8660: *13 client closed connection while waiting for request, client: 192.168.0.58, server: 0.0.0.0:80
+2022/04/11 00:35:22 [info] 8660#8660: *14 client 192.168.0.58 closed keepalive connection
+2022/04/11 00:35:54 [info] 8660#8660: *19 client 192.168.0.58 closed keepalive connection
+2022/04/11 00:36:29 [error] 8660#8660: *12 client intended to send too large body: 3872631 bytes, client: 192.168.0.58, server: localhost, request: "POST /upload HTTP/1.1", host: "192.168.0.60", referrer: "http://192.168.0.60/data/upload.html"
+2022/04/11 00:36:29 [error] 8660#8660: *12 client intended to send too large body: 3872631 bytes, client: 192.168.0.58, server: localhost, request: "POST /upload HTTP/1.1", host: "192.168.0.60", referrer: "http://192.168.0.60/data/upload.html"
+2022/04/11 00:36:29 [error] 8660#8660: *12 client intended to send too large body: 3872631 bytes, client: 192.168.0.58, server: localhost, request: "POST /upload HTTP/1.1", host: "192.168.0.60", referrer: "http://192.168.0.60/data/upload.html"
+2022/04/11 00:36:29 [error] 8660#8660: *12 client intended to send too large body: 3872631 bytes, client: 192.168.0.58, server: localhost, request: "POST /upload HTTP/1.1", host: "192.168.0.60", referrer: "http://192.168.0.60/data/upload.html"
+2022/04/11 00:36:55 [error] 8660#8660: *20 client intended to send too large body: 3872631 bytes, client: 192.168.0.58, server: localhost, request: "POST /upload HTTP/1.1", host: "192.168.0.60", referrer: "http://192.168.0.60/data/upload.html"
+2022/04/11 00:36:55 [error] 8660#8660: *20 client intended to send too large body: 3872631 bytes, client: 192.168.0.58, server: localhost, request: "POST /upload HTTP/1.1", host: "192.168.0.60", referrer: "http://192.168.0.60/data/upload.html"
+2022/04/11 00:36:55 [error] 8660#8660: *20 client intended to send too large body: 3872631 bytes, client: 192.168.0.58, server: localhost, request: "POST /upload HTTP/1.1", host: "192.168.0.60", referrer: "http://192.168.0.60/data/upload.html"
+2022/04/11 00:36:55 [error] 8660#8660: *20 client intended to send too large body: 3872631 bytes, client: 192.168.0.58, server: localhost, request: "POST /upload HTTP/1.1", host: "192.168.0.60", referrer: "http://192.168.0.60/data/upload.html"
+2022/04/11 00:37:31 [error] 8660#8660: *21 client intended to send too large body: 4187224316 bytes, client: 127.0.0.1, server: localhost, request: "POST /upload HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/data/upload.html"
+2022/04/11 00:37:31 [error] 8660#8660: *21 client intended to send too large body: 4187224316 bytes, client: 127.0.0.1, server: localhost, request: "POST /upload HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/data/upload.html"
+2022/04/11 00:37:31 [error] 8660#8660: *21 client intended to send too large body: 4187224316 bytes, client: 127.0.0.1, server: localhost, request: "POST /upload HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/data/upload.html"
+2022/04/11 00:37:31 [error] 8660#8660: *21 client intended to send too large body: 4187224316 bytes, client: 127.0.0.1, server: localhost, request: "POST /upload HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/data/upload.html"
+2022/04/11 00:37:38 [info] 8660#8660: *21 recv() failed (104: Connection reset by peer), client: 127.0.0.1, server: localhost, request: "POST /upload HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/data/upload.html"
+2022/04/11 00:37:38 [error] 8660#8660: *22 client intended to send too large body: 4187224316 bytes, client: 127.0.0.1, server: localhost, request: "POST /upload HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/data/upload.html"
+2022/04/11 00:37:38 [error] 8660#8660: *22 client intended to send too large body: 4187224316 bytes, client: 127.0.0.1, server: localhost, request: "POST /upload HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/data/upload.html"
+2022/04/11 00:37:38 [error] 8660#8660: *22 client intended to send too large body: 4187224316 bytes, client: 127.0.0.1, server: localhost, request: "POST /upload HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/data/upload.html"
+2022/04/11 00:37:38 [error] 8660#8660: *22 client intended to send too large body: 4187224316 bytes, client: 127.0.0.1, server: localhost, request: "POST /upload HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/data/upload.html"
+2022/04/11 00:39:48 [notice] 8659#8659: signal 15 (SIGTERM) received from 1, exiting
+2022/04/11 00:39:48 [notice] 8659#8659: signal 15 (SIGTERM) received from 1, exiting
+2022/04/11 00:39:48 [notice] 8660#8660: exiting
+2022/04/11 00:39:48 [notice] 8660#8660: exiting
+2022/04/11 00:39:48 [notice] 8660#8660: exit
+2022/04/11 00:39:48 [notice] 8659#8659: signal 14 (SIGALRM) received
+2022/04/11 00:39:48 [notice] 8659#8659: signal 14 (SIGALRM) received
+2022/04/11 00:39:48 [notice] 8659#8659: signal 17 (SIGCHLD) received from 8660
+2022/04/11 00:39:48 [notice] 8659#8659: signal 17 (SIGCHLD) received from 8660
+2022/04/11 00:39:48 [notice] 8659#8659: worker process 8660 exited with code 0
+2022/04/11 00:39:48 [notice] 8659#8659: worker process 8660 exited with code 0
+2022/04/11 00:39:48 [notice] 8659#8659: exit
+2022/04/11 00:39:48 [notice] 8659#8659: exit
+2022/04/11 00:39:48 [notice] 9865#9865: using the "epoll" event method
+2022/04/11 00:39:48 [notice] 9865#9865: using the "epoll" event method
+2022/04/11 00:39:48 [notice] 9865#9865: nginx/1.20.2
+2022/04/11 00:39:48 [notice] 9865#9865: nginx/1.20.2
+2022/04/11 00:39:48 [notice] 9865#9865: OS: Linux 5.16.14-1-MANJARO
+2022/04/11 00:39:48 [notice] 9865#9865: OS: Linux 5.16.14-1-MANJARO
+2022/04/11 00:39:48 [notice] 9865#9865: getrlimit(RLIMIT_NOFILE): 1024:524288
+2022/04/11 00:39:48 [notice] 9865#9865: getrlimit(RLIMIT_NOFILE): 1024:524288
+2022/04/11 00:39:48 [notice] 9866#9866: start worker processes
+2022/04/11 00:39:48 [notice] 9866#9866: start worker processes
+2022/04/11 00:39:48 [notice] 9866#9866: start worker process 9867
+2022/04/11 00:39:48 [notice] 9866#9866: start worker process 9867
+2022/04/11 00:40:13 [warn] 9867#9867: *1 a client request body is buffered to a temporary file /var/lib/nginx/client-body/0000000001, client: 127.0.0.1, server: localhost, request: "POST /upload HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/data/upload.html"
+2022/04/11 00:40:13 [warn] 9867#9867: *1 a client request body is buffered to a temporary file /var/lib/nginx/client-body/0000000001, client: 127.0.0.1, server: localhost, request: "POST /upload HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/data/upload.html"
+2022/04/11 00:40:14 [error] 9867#9867: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /upload HTTP/1.1", upstream: "http://[::1]:9997/upload", host: "127.0.0.1", referrer: "http://127.0.0.1/data/upload.html"
+2022/04/11 00:40:14 [error] 9867#9867: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /upload HTTP/1.1", upstream: "http://[::1]:9997/upload", host: "127.0.0.1", referrer: "http://127.0.0.1/data/upload.html"
+2022/04/11 00:40:14 [error] 9867#9867: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /upload HTTP/1.1", upstream: "http://[::1]:9997/upload", host: "127.0.0.1", referrer: "http://127.0.0.1/data/upload.html"
+2022/04/11 00:40:14 [error] 9867#9867: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /upload HTTP/1.1", upstream: "http://[::1]:9997/upload", host: "127.0.0.1", referrer: "http://127.0.0.1/data/upload.html"
+2022/04/11 00:40:14 [warn] 9867#9867: *1 upstream server temporarily disabled while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /upload HTTP/1.1", upstream: "http://[::1]:9997/upload", host: "127.0.0.1", referrer: "http://127.0.0.1/data/upload.html"
+2022/04/11 00:40:14 [warn] 9867#9867: *1 upstream server temporarily disabled while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /upload HTTP/1.1", upstream: "http://[::1]:9997/upload", host: "127.0.0.1", referrer: "http://127.0.0.1/data/upload.html"
+2022/04/11 00:40:56 [info] 9867#9867: *2 client timed out (110: Connection timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/04/11 00:42:14 [notice] 9866#9866: signal 15 (SIGTERM) received from 1, exiting
+2022/04/11 00:42:14 [notice] 9866#9866: signal 15 (SIGTERM) received from 1, exiting
+2022/04/11 00:42:14 [notice] 9867#9867: exiting
+2022/04/11 00:42:14 [notice] 9867#9867: exiting
+2022/04/11 00:42:14 [notice] 9867#9867: exit
+2022/04/11 00:42:14 [notice] 9866#9866: signal 14 (SIGALRM) received
+2022/04/11 00:42:14 [notice] 9866#9866: signal 14 (SIGALRM) received
+2022/04/11 00:42:14 [notice] 9866#9866: signal 17 (SIGCHLD) received from 9867
+2022/04/11 00:42:14 [notice] 9866#9866: signal 17 (SIGCHLD) received from 9867
+2022/04/11 00:42:14 [notice] 9866#9866: worker process 9867 exited with code 0
+2022/04/11 00:42:14 [notice] 9866#9866: worker process 9867 exited with code 0
+2022/04/11 00:42:14 [notice] 9866#9866: exit
+2022/04/11 00:42:14 [notice] 9866#9866: exit
+2022/04/11 00:46:59 [notice] 10895#10895: using the "epoll" event method
+2022/04/11 00:46:59 [notice] 10895#10895: using the "epoll" event method
+2022/04/11 00:46:59 [notice] 10895#10895: nginx/1.20.2
+2022/04/11 00:46:59 [notice] 10895#10895: nginx/1.20.2
+2022/04/11 00:46:59 [notice] 10895#10895: OS: Linux 5.16.14-1-MANJARO
+2022/04/11 00:46:59 [notice] 10895#10895: OS: Linux 5.16.14-1-MANJARO
+2022/04/11 00:46:59 [notice] 10895#10895: getrlimit(RLIMIT_NOFILE): 1024:524288
+2022/04/11 00:46:59 [notice] 10895#10895: getrlimit(RLIMIT_NOFILE): 1024:524288
+2022/04/11 00:46:59 [notice] 10896#10896: start worker processes
+2022/04/11 00:46:59 [notice] 10896#10896: start worker processes
+2022/04/11 00:46:59 [notice] 10896#10896: start worker process 10897
+2022/04/11 00:46:59 [notice] 10896#10896: start worker process 10897
+2022/04/11 00:48:07 [warn] 10897#10897: *1 a client request body is buffered to a temporary file /var/lib/nginx/client-body/0000000001, client: 127.0.0.1, server: localhost, request: "POST /upload HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/data/upload.html"
+2022/04/11 00:48:07 [warn] 10897#10897: *1 a client request body is buffered to a temporary file /var/lib/nginx/client-body/0000000001, client: 127.0.0.1, server: localhost, request: "POST /upload HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/data/upload.html"
+2022/04/11 00:48:07 [error] 10897#10897: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /upload HTTP/1.1", upstream: "http://[::1]:9997/upload", host: "127.0.0.1", referrer: "http://127.0.0.1/data/upload.html"
+2022/04/11 00:48:07 [error] 10897#10897: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /upload HTTP/1.1", upstream: "http://[::1]:9997/upload", host: "127.0.0.1", referrer: "http://127.0.0.1/data/upload.html"
+2022/04/11 00:48:07 [error] 10897#10897: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /upload HTTP/1.1", upstream: "http://[::1]:9997/upload", host: "127.0.0.1", referrer: "http://127.0.0.1/data/upload.html"
+2022/04/11 00:48:07 [error] 10897#10897: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /upload HTTP/1.1", upstream: "http://[::1]:9997/upload", host: "127.0.0.1", referrer: "http://127.0.0.1/data/upload.html"
+2022/04/11 00:48:07 [warn] 10897#10897: *1 upstream server temporarily disabled while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /upload HTTP/1.1", upstream: "http://[::1]:9997/upload", host: "127.0.0.1", referrer: "http://127.0.0.1/data/upload.html"
+2022/04/11 00:48:07 [warn] 10897#10897: *1 upstream server temporarily disabled while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /upload HTTP/1.1", upstream: "http://[::1]:9997/upload", host: "127.0.0.1", referrer: "http://127.0.0.1/data/upload.html"
+2022/04/11 00:48:07 [error] 10897#10897: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /upload HTTP/1.1", upstream: "http://127.0.0.1:9997/upload", host: "127.0.0.1", referrer: "http://127.0.0.1/data/upload.html"
+2022/04/11 00:48:07 [error] 10897#10897: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /upload HTTP/1.1", upstream: "http://127.0.0.1:9997/upload", host: "127.0.0.1", referrer: "http://127.0.0.1/data/upload.html"
+2022/04/11 00:48:07 [error] 10897#10897: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /upload HTTP/1.1", upstream: "http://127.0.0.1:9997/upload", host: "127.0.0.1", referrer: "http://127.0.0.1/data/upload.html"
+2022/04/11 00:48:07 [error] 10897#10897: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /upload HTTP/1.1", upstream: "http://127.0.0.1:9997/upload", host: "127.0.0.1", referrer: "http://127.0.0.1/data/upload.html"
+2022/04/11 00:48:07 [warn] 10897#10897: *1 upstream server temporarily disabled while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /upload HTTP/1.1", upstream: "http://127.0.0.1:9997/upload", host: "127.0.0.1", referrer: "http://127.0.0.1/data/upload.html"
+2022/04/11 00:48:07 [warn] 10897#10897: *1 upstream server temporarily disabled while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /upload HTTP/1.1", upstream: "http://127.0.0.1:9997/upload", host: "127.0.0.1", referrer: "http://127.0.0.1/data/upload.html"
+2022/04/11 00:48:28 [notice] 10896#10896: signal 15 (SIGTERM) received from 1, exiting
+2022/04/11 00:48:28 [notice] 10896#10896: signal 15 (SIGTERM) received from 1, exiting
+2022/04/11 00:48:28 [notice] 10897#10897: exiting
+2022/04/11 00:48:28 [notice] 10897#10897: exiting
+2022/04/11 00:48:28 [notice] 10897#10897: exit
+2022/04/11 00:48:28 [notice] 10896#10896: signal 14 (SIGALRM) received
+2022/04/11 00:48:28 [notice] 10896#10896: signal 14 (SIGALRM) received
+2022/04/11 00:48:28 [notice] 10896#10896: signal 17 (SIGCHLD) received from 10897
+2022/04/11 00:48:28 [notice] 10896#10896: signal 17 (SIGCHLD) received from 10897
+2022/04/11 00:48:28 [notice] 10896#10896: worker process 10897 exited with code 0
+2022/04/11 00:48:28 [notice] 10896#10896: worker process 10897 exited with code 0
+2022/04/11 00:48:28 [notice] 10896#10896: exit
+2022/04/11 00:48:28 [notice] 10896#10896: exit
+2022/04/11 00:53:36 [notice] 11363#11363: using the "epoll" event method
+2022/04/11 00:53:36 [notice] 11363#11363: using the "epoll" event method
+2022/04/11 00:53:36 [notice] 11363#11363: nginx/1.20.2
+2022/04/11 00:53:36 [notice] 11363#11363: nginx/1.20.2
+2022/04/11 00:53:36 [notice] 11363#11363: OS: Linux 5.16.14-1-MANJARO
+2022/04/11 00:53:36 [notice] 11363#11363: OS: Linux 5.16.14-1-MANJARO
+2022/04/11 00:53:36 [notice] 11363#11363: getrlimit(RLIMIT_NOFILE): 1024:524288
+2022/04/11 00:53:36 [notice] 11363#11363: getrlimit(RLIMIT_NOFILE): 1024:524288
+2022/04/11 00:53:36 [notice] 11364#11364: start worker processes
+2022/04/11 00:53:36 [notice] 11364#11364: start worker processes
+2022/04/11 00:53:36 [notice] 11364#11364: start worker process 11365
+2022/04/11 00:53:36 [notice] 11364#11364: start worker process 11365
+2022/04/11 01:03:44 [notice] 11364#11364: signal 15 (SIGTERM) received from 1, exiting
+2022/04/11 01:03:44 [notice] 11364#11364: signal 15 (SIGTERM) received from 1, exiting
+2022/04/11 01:03:44 [notice] 11365#11365: exiting
+2022/04/11 01:03:44 [notice] 11365#11365: exiting
+2022/04/11 01:03:44 [notice] 11365#11365: exit
+2022/04/11 01:03:44 [notice] 11364#11364: signal 14 (SIGALRM) received
+2022/04/11 01:03:44 [notice] 11364#11364: signal 14 (SIGALRM) received
+2022/04/11 01:03:44 [notice] 11364#11364: signal 17 (SIGCHLD) received from 11365
+2022/04/11 01:03:44 [notice] 11364#11364: signal 17 (SIGCHLD) received from 11365
+2022/04/11 01:03:44 [notice] 11364#11364: worker process 11365 exited with code 0
+2022/04/11 01:03:44 [notice] 11364#11364: worker process 11365 exited with code 0
+2022/04/11 01:03:44 [notice] 11364#11364: exit
+2022/04/11 01:03:44 [notice] 11364#11364: exit
+2022/04/11 01:06:14 [notice] 11736#11736: using the "epoll" event method
+2022/04/11 01:06:14 [notice] 11736#11736: using the "epoll" event method
+2022/04/11 01:06:14 [notice] 11736#11736: nginx/1.20.2
+2022/04/11 01:06:14 [notice] 11736#11736: nginx/1.20.2
+2022/04/11 01:06:14 [notice] 11736#11736: OS: Linux 5.16.14-1-MANJARO
+2022/04/11 01:06:14 [notice] 11736#11736: OS: Linux 5.16.14-1-MANJARO
+2022/04/11 01:06:14 [notice] 11736#11736: getrlimit(RLIMIT_NOFILE): 1024:524288
+2022/04/11 01:06:14 [notice] 11736#11736: getrlimit(RLIMIT_NOFILE): 1024:524288
+2022/04/11 01:06:14 [notice] 11737#11737: start worker processes
+2022/04/11 01:06:14 [notice] 11737#11737: start worker processes
+2022/04/11 01:06:14 [notice] 11737#11737: start worker process 11738
+2022/04/11 01:06:14 [notice] 11737#11737: start worker process 11738
+2022/04/11 01:06:51 [notice] 11737#11737: signal 15 (SIGTERM) received from 1, exiting
+2022/04/11 01:06:51 [notice] 11737#11737: signal 15 (SIGTERM) received from 1, exiting
+2022/04/11 01:06:51 [notice] 11738#11738: exiting
+2022/04/11 01:06:51 [notice] 11738#11738: exiting
+2022/04/11 01:06:51 [notice] 11738#11738: exit
+2022/04/11 01:06:51 [notice] 11737#11737: signal 14 (SIGALRM) received
+2022/04/11 01:06:51 [notice] 11737#11737: signal 14 (SIGALRM) received
+2022/04/11 01:06:51 [notice] 11737#11737: signal 17 (SIGCHLD) received from 11738
+2022/04/11 01:06:51 [notice] 11737#11737: signal 17 (SIGCHLD) received from 11738
+2022/04/11 01:06:51 [notice] 11737#11737: worker process 11738 exited with code 0
+2022/04/11 01:06:51 [notice] 11737#11737: worker process 11738 exited with code 0
+2022/04/11 01:06:51 [notice] 11737#11737: exit
+2022/04/11 01:06:51 [notice] 11737#11737: exit
+2022/04/11 01:11:29 [notice] 12049#12049: using the "epoll" event method
+2022/04/11 01:11:29 [notice] 12049#12049: using the "epoll" event method
+2022/04/11 01:11:29 [notice] 12049#12049: nginx/1.20.2
+2022/04/11 01:11:29 [notice] 12049#12049: nginx/1.20.2
+2022/04/11 01:11:29 [notice] 12049#12049: OS: Linux 5.16.14-1-MANJARO
+2022/04/11 01:11:29 [notice] 12049#12049: OS: Linux 5.16.14-1-MANJARO
+2022/04/11 01:11:29 [notice] 12049#12049: getrlimit(RLIMIT_NOFILE): 1024:524288
+2022/04/11 01:11:29 [notice] 12049#12049: getrlimit(RLIMIT_NOFILE): 1024:524288
+2022/04/11 01:11:29 [notice] 12050#12050: start worker processes
+2022/04/11 01:11:29 [notice] 12050#12050: start worker processes
+2022/04/11 01:11:29 [notice] 12050#12050: start worker process 12051
+2022/04/11 01:11:29 [notice] 12050#12050: start worker process 12051
+2022/04/11 01:12:05 [warn] 12051#12051: *1 a client request body is buffered to a temporary file /var/lib/nginx/client-body/0000000001, client: 127.0.0.1, server: localhost, request: "POST /upload HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/data/upload.html"
+2022/04/11 01:12:05 [warn] 12051#12051: *1 a client request body is buffered to a temporary file /var/lib/nginx/client-body/0000000001, client: 127.0.0.1, server: localhost, request: "POST /upload HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/data/upload.html"
+2022/04/11 01:12:05 [error] 12051#12051: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /upload HTTP/1.1", upstream: "http://[::1]:9997/upload", host: "127.0.0.1", referrer: "http://127.0.0.1/data/upload.html"
+2022/04/11 01:12:05 [error] 12051#12051: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /upload HTTP/1.1", upstream: "http://[::1]:9997/upload", host: "127.0.0.1", referrer: "http://127.0.0.1/data/upload.html"
+2022/04/11 01:12:05 [error] 12051#12051: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /upload HTTP/1.1", upstream: "http://[::1]:9997/upload", host: "127.0.0.1", referrer: "http://127.0.0.1/data/upload.html"
+2022/04/11 01:12:05 [error] 12051#12051: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /upload HTTP/1.1", upstream: "http://[::1]:9997/upload", host: "127.0.0.1", referrer: "http://127.0.0.1/data/upload.html"
+2022/04/11 01:12:05 [warn] 12051#12051: *1 upstream server temporarily disabled while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /upload HTTP/1.1", upstream: "http://[::1]:9997/upload", host: "127.0.0.1", referrer: "http://127.0.0.1/data/upload.html"
+2022/04/11 01:12:05 [warn] 12051#12051: *1 upstream server temporarily disabled while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /upload HTTP/1.1", upstream: "http://[::1]:9997/upload", host: "127.0.0.1", referrer: "http://127.0.0.1/data/upload.html"
+2022/04/11 01:12:58 [info] 12051#12051: *2 client timed out (110: Connection timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/04/11 01:13:21 [notice] 12050#12050: signal 15 (SIGTERM) received from 1, exiting
+2022/04/11 01:13:21 [notice] 12050#12050: signal 15 (SIGTERM) received from 1, exiting
+2022/04/11 01:13:21 [notice] 12051#12051: exiting
+2022/04/11 01:13:21 [notice] 12051#12051: exiting
+2022/04/11 01:13:21 [notice] 12051#12051: exit
+2022/04/11 01:13:21 [notice] 12050#12050: signal 14 (SIGALRM) received
+2022/04/11 01:13:21 [notice] 12050#12050: signal 14 (SIGALRM) received
+2022/04/11 01:13:21 [notice] 12050#12050: signal 17 (SIGCHLD) received from 12051
+2022/04/11 01:13:21 [notice] 12050#12050: signal 17 (SIGCHLD) received from 12051
+2022/04/11 01:13:21 [notice] 12050#12050: worker process 12051 exited with code 0
+2022/04/11 01:13:21 [notice] 12050#12050: worker process 12051 exited with code 0
+2022/04/11 01:13:21 [notice] 12050#12050: exit
+2022/04/11 01:13:21 [notice] 12050#12050: exit
+2022/04/11 01:13:51 [notice] 12273#12273: using the "epoll" event method
+2022/04/11 01:13:51 [notice] 12273#12273: using the "epoll" event method
+2022/04/11 01:13:51 [notice] 12273#12273: nginx/1.20.2
+2022/04/11 01:13:51 [notice] 12273#12273: nginx/1.20.2
+2022/04/11 01:13:51 [notice] 12273#12273: OS: Linux 5.16.14-1-MANJARO
+2022/04/11 01:13:51 [notice] 12273#12273: OS: Linux 5.16.14-1-MANJARO
+2022/04/11 01:13:51 [notice] 12273#12273: getrlimit(RLIMIT_NOFILE): 1024:524288
+2022/04/11 01:13:51 [notice] 12273#12273: getrlimit(RLIMIT_NOFILE): 1024:524288
+2022/04/11 01:13:51 [notice] 12274#12274: start worker processes
+2022/04/11 01:13:51 [notice] 12274#12274: start worker processes
+2022/04/11 01:13:51 [notice] 12274#12274: start worker process 12275
+2022/04/11 01:13:51 [notice] 12274#12274: start worker process 12275
+2022/04/11 01:16:36 [info] 12275#12275: epoll_wait() failed (4: Interrupted system call)
+2022/04/12 19:52:41 [info] 12275#12275: epoll_wait() failed (4: Interrupted system call)
+2022/04/13 00:23:29 [info] 12275#12275: epoll_wait() failed (4: Interrupted system call)
+2022/04/14 23:28:13 [info] 12275#12275: epoll_wait() failed (4: Interrupted system call)
+2022/04/14 23:28:27 [info] 12275#12275: epoll_wait() failed (4: Interrupted system call)
+2022/04/15 08:55:41 [info] 12275#12275: epoll_wait() failed (4: Interrupted system call)
+2022/04/16 01:32:51 [info] 12275#12275: epoll_wait() failed (4: Interrupted system call)
+2022/04/16 10:49:57 [info] 12275#12275: epoll_wait() failed (4: Interrupted system call)
+2022/04/17 00:00:39 [notice] 12274#12274: signal 10 (SIGUSR1) received from 131801, reopening logs
+2022/04/17 00:00:39 [notice] 12274#12274: signal 10 (SIGUSR1) received from 131801, reopening logs
+2022/04/17 00:00:39 [notice] 12274#12274: reopening logs
+2022/04/17 00:00:39 [notice] 12274#12274: reopening logs
+2022/04/17 00:00:39 [notice] 12275#12275: reopening logs
+2022/04/17 00:00:39 [notice] 12275#12275: reopening logs
+2022/04/17 00:52:03 [error] 12275#12275: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.0.58, server: localhost, request: "POST /upload HTTP/1.1", upstream: "http://[::1]:9997/upload", host: "192.168.0.60", referrer: "http://192.168.0.60/data/upload.html"
+2022/04/17 00:52:03 [error] 12275#12275: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.0.58, server: localhost, request: "POST /upload HTTP/1.1", upstream: "http://[::1]:9997/upload", host: "192.168.0.60", referrer: "http://192.168.0.60/data/upload.html"
+2022/04/17 00:52:03 [error] 12275#12275: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.0.58, server: localhost, request: "POST /upload HTTP/1.1", upstream: "http://[::1]:9997/upload", host: "192.168.0.60", referrer: "http://192.168.0.60/data/upload.html"
+2022/04/17 00:52:03 [error] 12275#12275: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.0.58, server: localhost, request: "POST /upload HTTP/1.1", upstream: "http://[::1]:9997/upload", host: "192.168.0.60", referrer: "http://192.168.0.60/data/upload.html"
+2022/04/17 00:52:03 [warn] 12275#12275: *1 upstream server temporarily disabled while connecting to upstream, client: 192.168.0.58, server: localhost, request: "POST /upload HTTP/1.1", upstream: "http://[::1]:9997/upload", host: "192.168.0.60", referrer: "http://192.168.0.60/data/upload.html"
+2022/04/17 00:52:03 [warn] 12275#12275: *1 upstream server temporarily disabled while connecting to upstream, client: 192.168.0.58, server: localhost, request: "POST /upload HTTP/1.1", upstream: "http://[::1]:9997/upload", host: "192.168.0.60", referrer: "http://192.168.0.60/data/upload.html"
+2022/04/17 00:52:05 [info] 12275#12275: *1 client 192.168.0.58 closed keepalive connection (104: Connection reset by peer)
+2022/04/17 00:52:37 [info] 12275#12275: *4 client 192.168.0.58 closed keepalive connection
+2022/04/17 00:55:51 [info] 12275#12275: epoll_wait() failed (4: Interrupted system call)
+2022/04/17 19:08:17 [info] 12275#12275: epoll_wait() failed (4: Interrupted system call)
+2022/04/17 23:37:10 [notice] 12274#12274: signal 15 (SIGTERM) received from 1, exiting
+2022/04/17 23:37:10 [notice] 12274#12274: signal 15 (SIGTERM) received from 1, exiting
+2022/04/17 23:37:10 [notice] 12275#12275: exiting
+2022/04/17 23:37:10 [notice] 12275#12275: exiting
+2022/04/17 23:37:10 [notice] 12275#12275: exit
+2022/04/17 23:37:10 [notice] 12274#12274: signal 14 (SIGALRM) received
+2022/04/17 23:37:10 [notice] 12274#12274: signal 14 (SIGALRM) received
+2022/04/17 23:37:10 [notice] 12274#12274: signal 17 (SIGCHLD) received from 12275
+2022/04/17 23:37:10 [notice] 12274#12274: signal 17 (SIGCHLD) received from 12275
+2022/04/17 23:37:10 [notice] 12274#12274: worker process 12275 exited with code 0
+2022/04/17 23:37:10 [notice] 12274#12274: worker process 12275 exited with code 0
+2022/04/17 23:37:10 [notice] 12274#12274: exit
+2022/04/17 23:37:10 [notice] 12274#12274: exit
+2022/04/17 23:37:34 [notice] 1066#1066: using the "epoll" event method
+2022/04/17 23:37:34 [notice] 1066#1066: using the "epoll" event method
+2022/04/17 23:37:34 [notice] 1066#1066: nginx/1.20.2
+2022/04/17 23:37:34 [notice] 1066#1066: nginx/1.20.2
+2022/04/17 23:37:34 [notice] 1066#1066: OS: Linux 5.16.14-1-MANJARO
+2022/04/17 23:37:34 [notice] 1066#1066: OS: Linux 5.16.14-1-MANJARO
+2022/04/17 23:37:34 [notice] 1066#1066: getrlimit(RLIMIT_NOFILE): 1024:524288
+2022/04/17 23:37:34 [notice] 1066#1066: getrlimit(RLIMIT_NOFILE): 1024:524288
+2022/04/17 23:37:34 [notice] 1067#1067: start worker processes
+2022/04/17 23:37:34 [notice] 1067#1067: start worker processes
+2022/04/17 23:37:34 [notice] 1067#1067: start worker process 1068
+2022/04/17 23:37:34 [notice] 1067#1067: start worker process 1068
+2022/04/18 00:09:34 [error] 1068#1068: *1 open() "/home/cong/nginx/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2022/04/18 00:09:34 [error] 1068#1068: *1 open() "/home/cong/nginx/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2022/04/18 00:09:34 [error] 1068#1068: *1 open() "/home/cong/nginx/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2022/04/18 00:09:34 [error] 1068#1068: *1 open() "/home/cong/nginx/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2022/04/18 00:09:46 [info] 1068#1068: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2022/04/18 00:09:46 [info] 1068#1068: *1 client 127.0.0.1 closed keepalive connection
+2022/04/18 00:59:04 [notice] 1067#1067: signal 15 (SIGTERM) received from 1, exiting
+2022/04/18 00:59:04 [notice] 1067#1067: signal 15 (SIGTERM) received from 1, exiting
+2022/04/18 00:59:04 [notice] 1068#1068: exiting
+2022/04/18 00:59:04 [notice] 1068#1068: exiting
+2022/04/18 00:59:04 [notice] 1068#1068: exit
+2022/04/18 00:59:04 [notice] 1067#1067: signal 17 (SIGCHLD) received from 1068
+2022/04/18 00:59:04 [notice] 1067#1067: signal 17 (SIGCHLD) received from 1068
+2022/04/18 00:59:04 [notice] 1067#1067: worker process 1068 exited with code 0
+2022/04/18 00:59:04 [notice] 1067#1067: worker process 1068 exited with code 0
+2022/04/18 00:59:04 [notice] 1067#1067: exit
+2022/04/18 00:59:04 [notice] 1067#1067: exit
+2022/04/18 00:59:26 [notice] 1072#1072: using the "epoll" event method
+2022/04/18 00:59:26 [notice] 1072#1072: using the "epoll" event method
+2022/04/18 00:59:26 [notice] 1072#1072: nginx/1.20.2
+2022/04/18 00:59:26 [notice] 1072#1072: nginx/1.20.2
+2022/04/18 00:59:26 [notice] 1072#1072: OS: Linux 5.16.18-1-MANJARO
+2022/04/18 00:59:26 [notice] 1072#1072: OS: Linux 5.16.18-1-MANJARO
+2022/04/18 00:59:26 [notice] 1072#1072: getrlimit(RLIMIT_NOFILE): 1024:524288
+2022/04/18 00:59:26 [notice] 1072#1072: getrlimit(RLIMIT_NOFILE): 1024:524288
+2022/04/18 00:59:26 [notice] 1073#1073: start worker processes
+2022/04/18 00:59:26 [notice] 1073#1073: start worker processes
+2022/04/18 00:59:26 [notice] 1073#1073: start worker process 1074
+2022/04/18 00:59:26 [notice] 1073#1073: start worker process 1074
+2022/04/18 01:00:44 [info] 1074#1074: epoll_wait() failed (4: Interrupted system call)
+2022/04/19 00:47:46 [info] 1074#1074: epoll_wait() failed (4: Interrupted system call)
+2022/04/20 14:37:35 [info] 1074#1074: epoll_wait() failed (4: Interrupted system call)
+2022/04/20 23:12:34 [info] 1074#1074: epoll_wait() failed (4: Interrupted system call)
+2022/04/20 23:15:51 [notice] 1073#1073: signal 15 (SIGTERM) received from 1, exiting
+2022/04/20 23:15:51 [notice] 1073#1073: signal 15 (SIGTERM) received from 1, exiting
+2022/04/20 23:15:51 [notice] 1074#1074: exiting
+2022/04/20 23:15:51 [notice] 1074#1074: exiting
+2022/04/20 23:15:51 [notice] 1074#1074: exit
+2022/04/20 23:15:51 [notice] 1073#1073: signal 14 (SIGALRM) received
+2022/04/20 23:15:51 [notice] 1073#1073: signal 14 (SIGALRM) received
+2022/04/20 23:15:51 [notice] 1073#1073: signal 17 (SIGCHLD) received from 1074
+2022/04/20 23:15:51 [notice] 1073#1073: signal 17 (SIGCHLD) received from 1074
+2022/04/20 23:15:51 [notice] 1073#1073: worker process 1074 exited with code 0
+2022/04/20 23:15:51 [notice] 1073#1073: worker process 1074 exited with code 0
+2022/04/20 23:15:51 [notice] 1073#1073: exit
+2022/04/20 23:15:51 [notice] 1073#1073: exit
+2022/04/20 23:16:14 [notice] 1065#1065: using the "epoll" event method
+2022/04/20 23:16:14 [notice] 1065#1065: using the "epoll" event method
+2022/04/20 23:16:14 [notice] 1065#1065: nginx/1.20.2
+2022/04/20 23:16:14 [notice] 1065#1065: nginx/1.20.2
+2022/04/20 23:16:14 [notice] 1065#1065: OS: Linux 5.16.18-1-MANJARO
+2022/04/20 23:16:14 [notice] 1065#1065: OS: Linux 5.16.18-1-MANJARO
+2022/04/20 23:16:14 [notice] 1065#1065: getrlimit(RLIMIT_NOFILE): 1024:524288
+2022/04/20 23:16:14 [notice] 1065#1065: getrlimit(RLIMIT_NOFILE): 1024:524288
+2022/04/20 23:16:14 [notice] 1066#1066: start worker processes
+2022/04/20 23:16:14 [notice] 1066#1066: start worker processes
+2022/04/20 23:16:14 [notice] 1066#1066: start worker process 1067
+2022/04/20 23:16:14 [notice] 1066#1066: start worker process 1067
+2022/04/22 00:17:11 [info] 1067#1067: epoll_wait() failed (4: Interrupted system call)
+2022/04/23 00:31:29 [info] 1067#1067: epoll_wait() failed (4: Interrupted system call)
+2022/04/23 02:24:01 [notice] 1066#1066: signal 15 (SIGTERM) received from 1, exiting
+2022/04/23 02:24:01 [notice] 1066#1066: signal 15 (SIGTERM) received from 1, exiting
+2022/04/23 02:24:01 [notice] 1067#1067: exiting
+2022/04/23 02:24:01 [notice] 1067#1067: exiting
+2022/04/23 02:24:01 [notice] 1067#1067: exit
+2022/04/23 02:24:01 [notice] 1066#1066: signal 17 (SIGCHLD) received from 1067
+2022/04/23 02:24:01 [notice] 1066#1066: signal 17 (SIGCHLD) received from 1067
+2022/04/23 02:24:01 [notice] 1066#1066: worker process 1067 exited with code 0
+2022/04/23 02:24:01 [notice] 1066#1066: worker process 1067 exited with code 0
+2022/04/23 02:24:01 [notice] 1066#1066: exit
+2022/04/23 02:24:01 [notice] 1066#1066: exit
+2022/04/23 02:24:28 [notice] 1064#1064: using the "epoll" event method
+2022/04/23 02:24:28 [notice] 1064#1064: using the "epoll" event method
+2022/04/23 02:24:28 [notice] 1064#1064: nginx/1.20.2
+2022/04/23 02:24:28 [notice] 1064#1064: nginx/1.20.2
+2022/04/23 02:24:28 [notice] 1064#1064: OS: Linux 5.16.18-1-MANJARO
+2022/04/23 02:24:28 [notice] 1064#1064: OS: Linux 5.16.18-1-MANJARO
+2022/04/23 02:24:28 [notice] 1064#1064: getrlimit(RLIMIT_NOFILE): 1024:524288
+2022/04/23 02:24:28 [notice] 1064#1064: getrlimit(RLIMIT_NOFILE): 1024:524288
+2022/04/23 02:24:28 [notice] 1065#1065: start worker processes
+2022/04/23 02:24:28 [notice] 1065#1065: start worker processes
+2022/04/23 02:24:28 [notice] 1065#1065: start worker process 1066
+2022/04/23 02:24:28 [notice] 1065#1065: start worker process 1066
+2022/04/23 10:38:51 [notice] 1077#1077: using the "epoll" event method
+2022/04/23 10:38:51 [notice] 1077#1077: using the "epoll" event method
+2022/04/23 10:38:51 [notice] 1077#1077: nginx/1.20.2
+2022/04/23 10:38:51 [notice] 1077#1077: nginx/1.20.2
+2022/04/23 10:38:51 [notice] 1077#1077: OS: Linux 5.16.18-1-MANJARO
+2022/04/23 10:38:51 [notice] 1077#1077: OS: Linux 5.16.18-1-MANJARO
+2022/04/23 10:38:51 [notice] 1077#1077: getrlimit(RLIMIT_NOFILE): 1024:524288
+2022/04/23 10:38:51 [notice] 1077#1077: getrlimit(RLIMIT_NOFILE): 1024:524288
+2022/04/23 10:38:51 [notice] 1078#1078: start worker processes
+2022/04/23 10:38:51 [notice] 1078#1078: start worker processes
+2022/04/23 10:38:51 [notice] 1078#1078: start worker process 1079
+2022/04/23 10:38:51 [notice] 1078#1078: start worker process 1079
+2022/04/23 12:02:51 [notice] 800#800: using the "epoll" event method
+2022/04/23 12:02:51 [notice] 800#800: using the "epoll" event method
+2022/04/23 12:02:51 [notice] 800#800: nginx/1.20.2
+2022/04/23 12:02:51 [notice] 800#800: nginx/1.20.2
+2022/04/23 12:02:51 [notice] 800#800: OS: Linux 5.13.19-2-MANJARO
+2022/04/23 12:02:51 [notice] 800#800: OS: Linux 5.13.19-2-MANJARO
+2022/04/23 12:02:51 [notice] 800#800: getrlimit(RLIMIT_NOFILE): 1024:524288
+2022/04/23 12:02:51 [notice] 800#800: getrlimit(RLIMIT_NOFILE): 1024:524288
+2022/04/23 12:02:51 [notice] 806#806: start worker processes
+2022/04/23 12:02:51 [notice] 806#806: start worker processes
+2022/04/23 12:02:51 [notice] 806#806: start worker process 807
+2022/04/23 12:02:51 [notice] 806#806: start worker process 807
+2022/04/23 12:04:45 [notice] 806#806: signal 15 (SIGTERM) received from 1, exiting
+2022/04/23 12:04:45 [notice] 806#806: signal 15 (SIGTERM) received from 1, exiting
+2022/04/23 12:04:45 [notice] 807#807: exiting
+2022/04/23 12:04:45 [notice] 807#807: exiting
+2022/04/23 12:04:45 [notice] 807#807: exit
+2022/04/23 12:04:45 [notice] 806#806: signal 14 (SIGALRM) received
+2022/04/23 12:04:45 [notice] 806#806: signal 14 (SIGALRM) received
+2022/04/23 12:04:45 [notice] 806#806: signal 17 (SIGCHLD) received from 807
+2022/04/23 12:04:45 [notice] 806#806: signal 17 (SIGCHLD) received from 807
+2022/04/23 12:04:45 [notice] 806#806: worker process 807 exited with code 0
+2022/04/23 12:04:45 [notice] 806#806: worker process 807 exited with code 0
+2022/04/23 12:04:45 [notice] 806#806: exit
+2022/04/23 12:04:45 [notice] 806#806: exit
+2022/04/23 12:05:15 [notice] 1061#1061: using the "epoll" event method
+2022/04/23 12:05:15 [notice] 1061#1061: using the "epoll" event method
+2022/04/23 12:05:15 [notice] 1061#1061: nginx/1.20.2
+2022/04/23 12:05:15 [notice] 1061#1061: nginx/1.20.2
+2022/04/23 12:05:15 [notice] 1061#1061: OS: Linux 5.16.18-1-MANJARO
+2022/04/23 12:05:15 [notice] 1061#1061: OS: Linux 5.16.18-1-MANJARO
+2022/04/23 12:05:15 [notice] 1061#1061: getrlimit(RLIMIT_NOFILE): 1024:524288
+2022/04/23 12:05:15 [notice] 1061#1061: getrlimit(RLIMIT_NOFILE): 1024:524288
+2022/04/23 12:05:15 [notice] 1062#1062: start worker processes
+2022/04/23 12:05:15 [notice] 1062#1062: start worker processes
+2022/04/23 12:05:15 [notice] 1062#1062: start worker process 1063
+2022/04/23 12:05:15 [notice] 1062#1062: start worker process 1063
+2022/04/23 12:56:55 [notice] 1062#1062: signal 15 (SIGTERM) received from 1, exiting
+2022/04/23 12:56:55 [notice] 1062#1062: signal 15 (SIGTERM) received from 1, exiting
+2022/04/23 12:56:55 [notice] 1063#1063: exiting
+2022/04/23 12:56:55 [notice] 1063#1063: exiting
+2022/04/23 12:56:55 [notice] 1063#1063: exit
+2022/04/23 12:56:55 [notice] 1062#1062: signal 14 (SIGALRM) received
+2022/04/23 12:56:55 [notice] 1062#1062: signal 14 (SIGALRM) received
+2022/04/23 12:56:55 [notice] 1062#1062: signal 17 (SIGCHLD) received from 1063
+2022/04/23 12:56:55 [notice] 1062#1062: signal 17 (SIGCHLD) received from 1063
+2022/04/23 12:56:55 [notice] 1062#1062: worker process 1063 exited with code 0
+2022/04/23 12:56:55 [notice] 1062#1062: worker process 1063 exited with code 0
+2022/04/23 12:56:55 [notice] 1062#1062: exit
+2022/04/23 12:56:55 [notice] 1062#1062: exit
+2022/04/23 12:57:17 [notice] 1152#1152: using the "epoll" event method
+2022/04/23 12:57:17 [notice] 1152#1152: using the "epoll" event method
+2022/04/23 12:57:17 [notice] 1152#1152: nginx/1.20.2
+2022/04/23 12:57:17 [notice] 1152#1152: nginx/1.20.2
+2022/04/23 12:57:17 [notice] 1152#1152: OS: Linux 5.16.18-1-MANJARO
+2022/04/23 12:57:17 [notice] 1152#1152: OS: Linux 5.16.18-1-MANJARO
+2022/04/23 12:57:17 [notice] 1152#1152: getrlimit(RLIMIT_NOFILE): 1024:524288
+2022/04/23 12:57:17 [notice] 1152#1152: getrlimit(RLIMIT_NOFILE): 1024:524288
+2022/04/23 12:57:17 [notice] 1206#1206: start worker processes
+2022/04/23 12:57:17 [notice] 1206#1206: start worker processes
+2022/04/23 12:57:17 [notice] 1206#1206: start worker process 1207
+2022/04/23 12:57:17 [notice] 1206#1206: start worker process 1207
+2022/04/23 13:12:50 [notice] 1206#1206: signal 15 (SIGTERM) received from 1, exiting
+2022/04/23 13:12:50 [notice] 1206#1206: signal 15 (SIGTERM) received from 1, exiting
+2022/04/23 13:12:50 [notice] 1207#1207: exiting
+2022/04/23 13:12:50 [notice] 1207#1207: exiting
+2022/04/23 13:12:50 [notice] 1207#1207: exit
+2022/04/23 13:12:50 [notice] 1206#1206: signal 17 (SIGCHLD) received from 1207
+2022/04/23 13:12:50 [notice] 1206#1206: signal 17 (SIGCHLD) received from 1207
+2022/04/23 13:12:50 [notice] 1206#1206: worker process 1207 exited with code 0
+2022/04/23 13:12:50 [notice] 1206#1206: worker process 1207 exited with code 0
+2022/04/23 13:12:50 [notice] 1206#1206: exit
+2022/04/23 13:12:50 [notice] 1206#1206: exit
+2022/04/23 13:13:07 [notice] 1061#1061: using the "epoll" event method
+2022/04/23 13:13:07 [notice] 1061#1061: using the "epoll" event method
+2022/04/23 13:13:07 [notice] 1061#1061: nginx/1.20.2
+2022/04/23 13:13:07 [notice] 1061#1061: nginx/1.20.2
+2022/04/23 13:13:07 [notice] 1061#1061: OS: Linux 5.16.18-1-MANJARO
+2022/04/23 13:13:07 [notice] 1061#1061: OS: Linux 5.16.18-1-MANJARO
+2022/04/23 13:13:07 [notice] 1061#1061: getrlimit(RLIMIT_NOFILE): 1024:524288
+2022/04/23 13:13:07 [notice] 1061#1061: getrlimit(RLIMIT_NOFILE): 1024:524288
+2022/04/23 13:13:07 [notice] 1118#1118: start worker processes
+2022/04/23 13:13:07 [notice] 1118#1118: start worker processes
+2022/04/23 13:13:07 [notice] 1118#1118: start worker process 1119
+2022/04/23 13:13:07 [notice] 1118#1118: start worker process 1119
+2022/04/23 13:19:27 [notice] 1118#1118: signal 15 (SIGTERM) received from 1, exiting
+2022/04/23 13:19:27 [notice] 1118#1118: signal 15 (SIGTERM) received from 1, exiting
+2022/04/23 13:19:27 [notice] 1119#1119: exiting
+2022/04/23 13:19:27 [notice] 1119#1119: exiting
+2022/04/23 13:19:27 [notice] 1119#1119: exit
+2022/04/23 13:19:27 [notice] 1118#1118: signal 14 (SIGALRM) received
+2022/04/23 13:19:27 [notice] 1118#1118: signal 14 (SIGALRM) received
+2022/04/23 13:19:27 [notice] 1118#1118: signal 17 (SIGCHLD) received from 1119
+2022/04/23 13:19:27 [notice] 1118#1118: signal 17 (SIGCHLD) received from 1119
+2022/04/23 13:19:27 [notice] 1118#1118: worker process 1119 exited with code 0
+2022/04/23 13:19:27 [notice] 1118#1118: worker process 1119 exited with code 0
+2022/04/23 13:19:27 [notice] 1118#1118: exit
+2022/04/23 13:19:27 [notice] 1118#1118: exit
+2022/04/23 13:20:06 [notice] 1123#1123: using the "epoll" event method
+2022/04/23 13:20:06 [notice] 1123#1123: using the "epoll" event method
+2022/04/23 13:20:06 [notice] 1123#1123: nginx/1.20.2
+2022/04/23 13:20:06 [notice] 1123#1123: nginx/1.20.2
+2022/04/23 13:20:06 [notice] 1123#1123: OS: Linux 5.16.18-1-MANJARO
+2022/04/23 13:20:06 [notice] 1123#1123: OS: Linux 5.16.18-1-MANJARO
+2022/04/23 13:20:06 [notice] 1123#1123: getrlimit(RLIMIT_NOFILE): 1024:524288
+2022/04/23 13:20:06 [notice] 1123#1123: getrlimit(RLIMIT_NOFILE): 1024:524288
+2022/04/23 13:20:06 [notice] 1184#1184: start worker processes
+2022/04/23 13:20:06 [notice] 1184#1184: start worker processes
+2022/04/23 13:20:06 [notice] 1184#1184: start worker process 1185
+2022/04/23 13:20:06 [notice] 1184#1184: start worker process 1185
+2022/04/23 13:30:27 [notice] 1184#1184: signal 15 (SIGTERM) received from 1, exiting
+2022/04/23 13:30:27 [notice] 1184#1184: signal 15 (SIGTERM) received from 1, exiting
+2022/04/23 13:30:27 [notice] 1185#1185: exiting
+2022/04/23 13:30:27 [notice] 1185#1185: exiting
+2022/04/23 13:30:27 [notice] 1185#1185: exit
+2022/04/23 13:30:27 [notice] 1184#1184: signal 14 (SIGALRM) received
+2022/04/23 13:30:27 [notice] 1184#1184: signal 14 (SIGALRM) received
+2022/04/23 13:30:27 [notice] 1184#1184: signal 17 (SIGCHLD) received from 1185
+2022/04/23 13:30:27 [notice] 1184#1184: signal 17 (SIGCHLD) received from 1185
+2022/04/23 13:30:27 [notice] 1184#1184: worker process 1185 exited with code 0
+2022/04/23 13:30:27 [notice] 1184#1184: worker process 1185 exited with code 0
+2022/04/23 13:30:27 [notice] 1184#1184: exit
+2022/04/23 13:30:27 [notice] 1184#1184: exit
+2022/04/23 13:30:49 [notice] 1061#1061: using the "epoll" event method
+2022/04/23 13:30:49 [notice] 1061#1061: using the "epoll" event method
+2022/04/23 13:30:49 [notice] 1061#1061: nginx/1.20.2
+2022/04/23 13:30:49 [notice] 1061#1061: nginx/1.20.2
+2022/04/23 13:30:49 [notice] 1061#1061: OS: Linux 5.16.18-1-MANJARO
+2022/04/23 13:30:49 [notice] 1061#1061: OS: Linux 5.16.18-1-MANJARO
+2022/04/23 13:30:49 [notice] 1061#1061: getrlimit(RLIMIT_NOFILE): 1024:524288
+2022/04/23 13:30:49 [notice] 1061#1061: getrlimit(RLIMIT_NOFILE): 1024:524288
+2022/04/23 13:30:49 [notice] 1124#1124: start worker processes
+2022/04/23 13:30:49 [notice] 1124#1124: start worker processes
+2022/04/23 13:30:49 [notice] 1124#1124: start worker process 1125
+2022/04/23 13:30:49 [notice] 1124#1124: start worker process 1125
