@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =7
+let g:netrw_dirhist_7='/home/cong/.vim'
+let g:netrw_dirhist_6='/etc'
+let g:netrw_dirhist_5='/etc/depmod.d'
+let g:netrw_dirhist_4='/home/cong'
+let g:netrw_dirhist_3='/home/cong/work/code/openwrt/build_dir/target-arm_arm1176jzf-s+vfp_musl_eabi/hostapd-wpad-basic-wolfssl/hostapd-2022-01-16-cff80b4f'
+let g:netrw_dirhist_2='/home/cong/work/code/openwrt/build_dir/target-arm_arm1176jzf-s+vfp_musl_eabi/hostapd-wpad-basic-wolfssl'
+let g:netrw_dirhist_1='/home/cong/.local'
