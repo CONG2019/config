@@ -2,7 +2,11 @@
 "通用配置
 syntax on  " 开启语法高亮
 "colorscheme peachpuff "vim配置方案
-"colorscheme wombat256grf
+" colorscheme wombat256grf
+
+colorscheme gruvbox
+set background=dark	" dark theme
+
 set number  " 显示行号
 set hls "搜索时高亮显示被找到的文本
 set scrolloff=3 " 上下可视行数
@@ -23,10 +27,15 @@ set backspace=indent,eol,start " 设置backspace的工作方式
 map <F5> :set listchars=tab:>-,trail:-<CR> :set list<CR> " 显示空格和tab
 map <F6> :set list!<CR> " 取消显示空格和tab
 set ts=4
-set expandtab
+" set expandtab "tab用空格替换
 set autoindent
 set foldmethod=syntax "基于语法进行代码折叠, indent:缩进, manual:手动, diff:未更改文本
 set nofoldenable	"启动 Vim 时关闭折叠
+
+" 日语支持
+set encoding=utf-8
+set fileencodings=iso-2022-jp,euc-jp,sjis,utf-8
+set fileformats=unix,dos
 
 "配置nerdtree使用F3打开关闭
 map <F3> :NERDTreeMirror <CR>
@@ -80,18 +89,6 @@ map 88 :b8<CR>          " 切换到编号8
 map 99 :bp<CR>          " 切换到编号<F12><F12>
 map 00 :bn<CR>         " 切换到编号10
 
-" 1、 \cc 注释当前行和选中行
-" 2、 \cn 没有发现和\cc有区别
-" 3、 \c<空格> 如果被选区域有部分被注释，则对被选区域执行取消注释操作，其它情况执行反转注释操作
-" 4、 \cm 对被选区域用一对注释符进行注释，前面的注释对每一行都会添加注释
-" 5、 \ci 执行反转注释操作，选中区域注释部分取消注释，非注释部分添加注释
-" 6、 \cs 添加性感的注释，代码开头介绍部分通常使用该注释
-" 7、 \cy 添加注释，并复制被添加注释的部分
-" 8、 \c$ 注释当前光标到改行结尾的内容
-" 9、 \cA 跳转到该行结尾添加注释，并进入编辑模式
-" 10、\ca 转换注释的方式，比如： /**/和//
-" 11、\cl \cb 左对齐和左右对其，左右对其主要针对/**/
-" 12、\cu 取消注释
 "nerdcommenter插件快速注释
 let g:NERDSpaceDelims            = 1      " 在注释符号后加一个空格
 let g:NERDCompactSexyComs        = 1      " 紧凑排布多行注释
@@ -129,60 +126,13 @@ map <c-]> g<c-]>  "ctags跳转不自动选择
 " 禁用 gutentags 自动加载 gtags 数据库的行为
 "let g:gutentags_auto_add_gtags_cscope = 0
 
-" vim-multiple-cursors
-" <C-n>: 进入多光标状态/或选择下一个符合当前选择的单词
-" <C-x>: 跳过当前候选
-" <C-p>: 移除当前单词处的光标及选择状态跳转到上一个光标处
-let g:multi_cursor_use_default_mapping=0
-" Default mapping
-let g:multi_cursor_start_word_key      = '<C-n>'
-let g:multi_cursor_select_all_word_key = '<A-n>'
-let g:multi_cursor_start_key           = 'g<C-n>'
-let g:multi_cursor_select_all_key      = 'g<A-n>'
-let g:multi_cursor_next_key            = '<C-n>'
-let g:multi_cursor_prev_key            = '<C-p>'
-let g:multi_cursor_skip_key            = '<C-x>'
-let g:multi_cursor_quit_key            = '<Esc>'
-
-" vim-interestingwords'
-" k: 高亮单词
-" shift k: 取消高亮
-let g:interestingWordsGUIColors = ['#8CCBEA', '#A4E57E', '#FFDB72', '#FF7272', '#FFB3FF', '#9999FF']
-let g:interestingWordsTermColors = ['154', '121', '211', '137', '214', '222']
-let g:interestingWordsRandomiseColors = 1
-let g:interestingWordsDefaultMappings = 0   " disable default mapping
-map gl :call InterestingWords('n')<cr>  " 高亮 
-"map gl :call InterestingWords('v')<cr> 
-map gn :call WordNavigation(1)<cr>  " 跳到下一个 
-map gu :call UncolorAllWords()<cr>  " 取消所有高亮
-
-" markdown-preview.nvim
-let g:vim_markdown_math = 1
-let g:vmt_auto_update_on_save = 0
-let g:mkdp_path_to_chrome = "/usr/bin/google-chrome-stable"
-let g:mkdp_markdown_css=''
-
-" vimdiff
-" zo: 展开折叠
-" za: 打开关闭折叠
-" do：从另外一个问家复制diff
-" dp：将diff合并到另外一个文件
-
 "GIT_TERMINAL_PROMPT=0
 call plug#begin('~/.vim/plugged')
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'vim-scripts/taglist.vim' "Tlist标签列表插件
 Plug 'preservim/nerdcommenter' "nerdcommenter快速注释插件
-"Plug 'vim-airline/vim-airline' "airline状态栏
+Plug 'vim-airline/vim-airline' "airline状态栏
 "Plug 'ludovicchabant/vim-gutentags' "gutentags异步tags插件
 Plug 'vim-scripts/LeaderF' "LeaderF模糊查找插件
 Plug 'vim-scripts/AutoComplPop' "查字典补全
-" Plug 'iamcco/mathjax-support-for-mkdp'
-Plug 'iamcco/markdown-preview.nvim', {'do': 'cd app & yarn install'}
-" Plug 'terryma/vim-multiple-cursors' " 多光标插件
-Plug 'mhinz/vim-startify' " 快速打开之前浏览的文件
-Plug 'lfv89/vim-interestingwords'   " 高亮插件
-Plug 'tpope/vim-fugitive'   " git 插件
-Plug 'plasticboy/vim-markdown'
-Plug 'mileszs/ack.vim'  " ack 搜索
 call plug#end()
